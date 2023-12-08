@@ -4,7 +4,7 @@ Welcome to my project repository where I use R and PowerBI to uncover meaningful
 
 ## About the Dataset
 
-The "Hollywood Most Profitable Stories" dataset contains [brief description of the dataset, such as columns, key metrics, and source]. It offers a comprehensive view of [provide context about what the dataset represents].
+The "Hollywood Most Profitable Stories" dataset contains information about 70 Hollywood movies. It offers a comprehensive view of their Title, Genre, Audience Score and Total Gross.
 
 ## Tools Used
 
@@ -13,32 +13,31 @@ The "Hollywood Most Profitable Stories" dataset contains [brief description of t
 
 ## Project Overview
 
-In this project, I employed R for [describe the tasks or analysis performed with R], and then I harnessed PowerBI for [describe the objectives accomplished with PowerBI].
+In this project, I employed R for to perform an Exploratory Data Analysis(EDA) on the data set, and then I used PowerBI to create a meaningful dashboard to showcase trends.
 
 ## Repository Structure
 
-- **/R:** Contains R scripts used in the project.
-- **/PowerBI:** Includes PowerBI files and related assets.
-- **/Documentation:** Additional documentation related to the project.
+- The file 'Hollywoods_Most_Profitable_Stories_Dataset.csv' contains the raw data that I imported in R.
+- The 'Cleaned_Dataset.csv' is the refined version of the original dataset.
+- The 'R_Project.R' file contains the functions that I used to perform the EDA, the Data Cleaning and to prepare the data to export it in Power BI.
+- The 'PowerBI_R_Assignment.pbix' Includes the Power BI dashboard that I developed to showcase the data.
+- The 'R_Script_for_PowerBI_Chart.txt' contains the R script that I used to create a unique chart in Power BI to meet my needs.
 
 Feel free to explore the individual folders for detailed information on each phase of the project.
 
-## Getting Started
-
-[Provide instructions on how others can run or replicate your project, including any necessary setup or prerequisites.]
 
 ## Project Highlights
 
-- **R Analysis:** [Highlight key insights or findings obtained through R scripts.]
-- **PowerBI Visualizations:** [Describe the visualizations or reports created using PowerBI.]
-- **Key Findings:** [Summarize the most significant discoveries or patterns uncovered in the dataset.]
+### R Analysis
 
-## Contact
+![R_PowerBI_Assignment_GC](https://github.com/giacomo-carta/R-PowerBI/assets/153180003/f11e787f-5406-49ed-9c50-28a6dbb12f1b)
 
-For any questions, feedback, or collaboration opportunities, feel free to reach out:
+### Power BI Dashboard
+![R_PowerBI_Assignment_GC](https://github.com/giacomo-carta/R-PowerBI/assets/153180003/801c7905-c6c7-47ff-a238-aff9b2582d49)
 
-- Email: [your@email.com]
-- LinkedIn: [Your LinkedIn Profile]
-- Twitter: [@YourTwitterHandle]
 
-I hope you enjoy exploring the fascinating world of Hollywood profits with me! 🎬📊
+
+<br><br><br><br>
+
+
+**💡🌐🔍 I hope you find this project insightful and valuable! 🌟**
