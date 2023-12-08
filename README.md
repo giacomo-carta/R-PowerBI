@@ -30,7 +30,7 @@ Feel free to explore the individual folders for detailed information on each pha
 
 ### R Analysis
 
-![R_PowerBI_Assignment_GC](https://github.com/giacomo-carta/R-PowerBI/assets/153180003/f11e787f-5406-49ed-9c50-28a6dbb12f1b)
+![Screenshot 2023-12-08 164115](https://github.com/giacomo-carta/R-PowerBI/assets/153180003/18634628-ac41-4e92-927e-ab0ee4a85e6d)
 
 ### Power BI Dashboard
 ![R_PowerBI_Assignment_GC](https://github.com/giacomo-carta/R-PowerBI/assets/153180003/801c7905-c6c7-47ff-a238-aff9b2582d49)
