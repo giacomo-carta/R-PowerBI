@@ -1,0 +1,26 @@
+# Loading libraries
+library(ggplot2)
+
+df <- read.csv("C:/Users/............clean_df.csv")
+df$FilmTitle <- as.character(df$FilmTitle)
+
+# Creating a wider bar plot with smaller font size and increased plot size
+p <- ggplot(df, aes(x = reorder(FilmTitle, AudienceScore), y = AudienceScore, fill = AudienceScore)) +
+  geom_bar(stat = "identity", position = "dodge", color = "black", width = 0.8) +
+  scale_fill_gradient(low = "#AFE486", high = "#118DFF") +
+  labs(title = NULL,
+       fill = "Audience \n  Score",
+       x = NULL,
+       y = NULL ) +
+  theme_minimal() +
+  theme(
+    plot.margin = unit(c(0.5, 0, 0, 0), "cm"),  # Adjust the top margin
+    axis.text.x = element_text(angle = 90, hjust = 1, size = 9, color = "black"),  # Set title font color to black
+    legend.text = element_text(size = 8),  # Adjust legend text size
+    legend.title = element_text(size = 10, margin = margin(b = 0)),  # Adjust legend title size and margin
+    panel.grid = element_blank()  # Remove gridlines
+  ) +
+  geom_text(aes(label = AudienceScore), vjust = -0.5, size = 3, position = position_dodge(width = 0.8))
+
+# Saving the plot with a transparent background
+ggsave("your_plot.png", p, bg = "transparent", width = 16, height = 6, units = "in")
