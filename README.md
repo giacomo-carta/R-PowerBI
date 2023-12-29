@@ -40,4 +40,4 @@ Feel free to explore the individual folders for detailed information on each pha
 <br><br><br><br>
 
 
-**💡🌐🔍 I hope you find this project insightful and valuable! 🌟**
+## Thank You! 🌟 *And don't forget to drop a star if you liked my project!* 🚀🎉
